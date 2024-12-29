@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="outer_calc">
+            <div class="calc_wrapper">
+                <div class="logo">
+                    <div class="line"></div>
+                    <h1>Grade Calculator</h1>
+                </div>
+                <div class="calc_area">
+                    <div class="input_wrapper">
+                        <input type="number" id="Kannada" placeholder="Kannada" min="0" max="100">
+                        <input type="number" id="English" placeholder="English" min="0" max="100">
+                        <input type="number" id="Hindi" placeholder="Hindi" min="0" max="100">
+                        <input type="number" id="Maths" placeholder="Maths" min="0" max="100">
+                        <input type="number" id="Science" placeholder="Science" min="0" max="100">
+                        <input type="number" id="Social" placeholder="Social" min="0" max="100">
+                    </div>
+                    <button class="btn" onclick="calculate()">Calculate Grade</button>
+                </div>
+            </div>
+            <div class="result_wrapper" id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
